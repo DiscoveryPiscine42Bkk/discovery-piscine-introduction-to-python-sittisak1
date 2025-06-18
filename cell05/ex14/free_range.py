@@ -16,10 +16,8 @@ def main():
     if start <= end:
         arr = list(range(start, end + 1))
     else:
-        # กรณี start > end สร้างลำดับย้อนกลับ
-        arr = list(range(start, end - 1, -1))
-
-    print(arr)
+         arr = list(range(start, end - 1, -1))
+        print(arr)
 
 if __name__ == "__main__":
     main()
