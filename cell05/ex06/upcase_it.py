@@ -6,7 +6,7 @@ def main():
         # แปลงพารามิเตอร์ตัวที่ 1 เป็นตัวพิมพ์ใหญ่
         print(sys.argv[1].upper())
     else:
-        print("none")
+        print("RTFM (Read the F-ing manual)")
 
 if __name__ == "__main__":
     main()
